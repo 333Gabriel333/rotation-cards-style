@@ -1,2 +1,4 @@
 # rotation-cards-style
-Design of rotation carda with HTML and CSS.
+Design of rotation cards with HTML and CSS.
+
+In this project we show how to design a card with rotation animation with HTML and CSS
