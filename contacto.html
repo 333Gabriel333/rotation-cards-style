@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>RPG CARDS</title>
+		<meta charset='UTF-8'>
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
+		<link rel='stylesheet' type='text/css' href='css/styles.css'>
+	</head>
+	<body>
+            <div class="header">
+                <div class='logo-nav-container'>
+                    <div>
+                        <a href='horoscopo.html' class='logo'>· AstroCAMPUS ·</a>
+                        <br>
+                        <a href='horoscopo.html' class='logo2'>ASTROLOGIA PRACTICA</a>
+
+                    </div>
+                    <div>
+                        <nav class='navigation'>
+                            <ul>
+                                <li> <a href='horoscopo.html'>Inicio</a></li>
+                                <li> <a href='contacto.html'>Contacto</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container-contacto">
+                <div class="card-contacto">
+                    <div class='contacto-image'></div>
+                    <div class='card-text'>
+                         <span class='date'>Astrólogo</span>
+                         <br><br>
+                         <h2>ÁNGEL´PÉREZ</h2>
+                         <br>
+                         EMAIL:
+                         arko8902@gmail.com
+                    </div>
+                </div>
+                <div class="container-form">
+                    <form action="enviar.php" method="post" class="form">
+                        <div class="form-header">
+                            <h2  class="form-title"><span>C</span>ontacto</h2>
+                        </div>  
+                        
+                        <label for="nombre" class="form-label">Nombre * </label>
+                        <input type="text" id="nombre" name="nombre" class="form-input" placeholder="Escriba su nombre.." required>
+
+
+                        <label for="nombre" class="form-label">Teléfono </label>
+                        <input type="text" id="nombre" name="telefono" class="form-input" placeholder="Escriba su número de teléfono..">
+
+
+                        <label for="nombre" class="form-label">Correo Electrónico *  </label>
+                        <input type="text" id="nombre" name="email" class="form-input" placeholder="Escriba su correo electrónico.." required>
+
+
+                        <label for="nombre" class="form-label">Mensaje * </label>
+                        <input type="text" id="nombre" name="mensaje" class="form-textarea" placeholder="Escriba su mensaje.." required>
+                        
+                        <input type="submit" value="Enviar consulta" id="btnSend" class="btn-submit">
+                        <!--
+                        <div class="btn-submit">
+                            <strong>Enviar consulta</strong>
+                        </div> -->
+                    </form>
+                </div>
+                
+            </div>
+            
+            <div class='container-footer'>
+			<div class='logo-nav-container'>
+				<div>
+					<a>Astro-ARKO</a>
+				</div>
+				<div>
+					<a>email: arko8902@gmail.com</a>
+				</div>
+			</div>
+            </div>
+	</body>
+</html>
